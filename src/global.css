@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn {
+  @apply px-4 py-1 border border-cyan-500 text-sm text-red-200 font-bold bg-green-800 hover:bg-green-500 rounded-xl;
+}
+.btn-green {
+  @apply text-red-200  bg-green-800 hover:bg-green-500;
+}
+.btn-red {
+  @apply text-sm text-red-200 bg-red-800 hover:bg-red-500;
+}
